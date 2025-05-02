@@ -1,0 +1,368 @@
+2025-04-07 01:48:41,376 - INFO - Starting evaluation process
+2025-04-07 01:48:41,376 - INFO - Loading MovieLens 100k dataset...
+2025-04-07 01:48:41,562 - INFO - Dataset loaded successfully
+2025-04-07 01:48:41,562 - INFO - Starting evaluation with 10 algorithms
+2025-04-07 01:48:41,564 - INFO - Using threshold of 3.5 for binary classification
+2025-04-07 01:48:41,564 - INFO - 
+Evaluating algorithm: SVD
+2025-04-07 01:48:41,690 - INFO - Processing fold 1/5
+2025-04-07 01:48:41,690 - INFO - Training SVD on fold 1
+2025-04-07 01:48:42,626 - INFO - Training completed in 0.94 seconds
+2025-04-07 01:48:42,626 - INFO - Testing SVD on fold 1
+2025-04-07 01:48:42,831 - INFO - Fold 1 metrics - RMSE: 0.9352, MAE: 0.7384
+2025-04-07 01:48:42,958 - INFO - Processing fold 2/5
+2025-04-07 01:48:42,959 - INFO - Training SVD on fold 2
+2025-04-07 01:48:43,817 - INFO - Training completed in 0.86 seconds
+2025-04-07 01:48:43,817 - INFO - Testing SVD on fold 2
+2025-04-07 01:48:43,963 - INFO - Fold 2 metrics - RMSE: 0.9307, MAE: 0.7347
+2025-04-07 01:48:44,094 - INFO - Processing fold 3/5
+2025-04-07 01:48:44,094 - INFO - Training SVD on fold 3
+2025-04-07 01:48:44,913 - INFO - Training completed in 0.82 seconds
+2025-04-07 01:48:44,913 - INFO - Testing SVD on fold 3
+2025-04-07 01:48:45,102 - INFO - Fold 3 metrics - RMSE: 0.9421, MAE: 0.7413
+2025-04-07 01:48:45,229 - INFO - Processing fold 4/5
+2025-04-07 01:48:45,229 - INFO - Training SVD on fold 4
+2025-04-07 01:48:46,048 - INFO - Training completed in 0.82 seconds
+2025-04-07 01:48:46,048 - INFO - Testing SVD on fold 4
+2025-04-07 01:48:46,244 - INFO - Fold 4 metrics - RMSE: 0.9354, MAE: 0.7379
+2025-04-07 01:48:46,370 - INFO - Processing fold 5/5
+2025-04-07 01:48:46,370 - INFO - Training SVD on fold 5
+2025-04-07 01:48:47,146 - INFO - Training completed in 0.78 seconds
+2025-04-07 01:48:47,146 - INFO - Testing SVD on fold 5
+2025-04-07 01:48:47,284 - INFO - Fold 5 metrics - RMSE: 0.9363, MAE: 0.7370
+2025-04-07 01:48:47,679 - INFO - 
+Final results for SVD:
+2025-04-07 01:48:47,679 - INFO - RMSE: 0.9359
+2025-04-07 01:48:47,679 - INFO - MAE: 0.7379
+2025-04-07 01:48:47,679 - INFO - Precision: 0.7378
+2025-04-07 01:48:47,679 - INFO - Recall: 0.7353
+2025-04-07 01:48:47,679 - INFO - F1 Score: 0.7366
+2025-04-07 01:48:47,679 - INFO - Accuracy: 0.7087
+2025-04-07 01:48:47,679 - INFO - Total time: 6.11 seconds
+2025-04-07 01:48:47,679 - INFO - 
+Evaluating algorithm: SVD++
+2025-04-07 01:48:47,812 - INFO - Processing fold 1/5
+2025-04-07 01:48:47,812 - INFO - Training SVD++ on fold 1
+2025-04-07 01:49:01,852 - INFO - Training completed in 14.04 seconds
+2025-04-07 01:49:01,852 - INFO - Testing SVD++ on fold 1
+2025-04-07 01:49:05,124 - INFO - Fold 1 metrics - RMSE: 0.9204, MAE: 0.7227
+2025-04-07 01:49:05,247 - INFO - Processing fold 2/5
+2025-04-07 01:49:05,247 - INFO - Training SVD++ on fold 2
+2025-04-07 01:49:20,601 - INFO - Training completed in 15.35 seconds
+2025-04-07 01:49:20,601 - INFO - Testing SVD++ on fold 2
+2025-04-07 01:49:24,331 - INFO - Fold 2 metrics - RMSE: 0.9251, MAE: 0.7278
+2025-04-07 01:49:24,461 - INFO - Processing fold 3/5
+2025-04-07 01:49:24,461 - INFO - Training SVD++ on fold 3
+2025-04-07 01:49:41,857 - INFO - Training completed in 17.40 seconds
+2025-04-07 01:49:41,857 - INFO - Testing SVD++ on fold 3
+2025-04-07 01:49:46,032 - INFO - Fold 3 metrics - RMSE: 0.9163, MAE: 0.7184
+2025-04-07 01:49:46,128 - INFO - Processing fold 4/5
+2025-04-07 01:49:46,128 - INFO - Training SVD++ on fold 4
+2025-04-07 01:50:00,735 - INFO - Training completed in 14.61 seconds
+2025-04-07 01:50:00,735 - INFO - Testing SVD++ on fold 4
+2025-04-07 01:50:03,813 - INFO - Fold 4 metrics - RMSE: 0.9190, MAE: 0.7220
+2025-04-07 01:50:03,928 - INFO - Processing fold 5/5
+2025-04-07 01:50:03,928 - INFO - Training SVD++ on fold 5
+2025-04-07 01:50:18,126 - INFO - Training completed in 14.20 seconds
+2025-04-07 01:50:18,127 - INFO - Testing SVD++ on fold 5
+2025-04-07 01:50:21,483 - INFO - Fold 5 metrics - RMSE: 0.9171, MAE: 0.7175
+2025-04-07 01:50:21,788 - INFO - 
+Final results for SVD++:
+2025-04-07 01:50:21,788 - INFO - RMSE: 0.9196
+2025-04-07 01:50:21,788 - INFO - MAE: 0.7217
+2025-04-07 01:50:21,788 - INFO - Precision: 0.7444
+2025-04-07 01:50:21,788 - INFO - Recall: 0.7433
+2025-04-07 01:50:21,788 - INFO - F1 Score: 0.7438
+2025-04-07 01:50:21,788 - INFO - Accuracy: 0.7165
+2025-04-07 01:50:21,788 - INFO - Total time: 94.11 seconds
+2025-04-07 01:50:21,788 - INFO - 
+Evaluating algorithm: NMF
+2025-04-07 01:50:21,909 - INFO - Processing fold 1/5
+2025-04-07 01:50:21,909 - INFO - Training NMF on fold 1
+2025-04-07 01:50:23,154 - INFO - Training completed in 1.25 seconds
+2025-04-07 01:50:23,154 - INFO - Testing NMF on fold 1
+2025-04-07 01:50:23,272 - INFO - Fold 1 metrics - RMSE: 0.9710, MAE: 0.7645
+2025-04-07 01:50:23,375 - INFO - Processing fold 2/5
+2025-04-07 01:50:23,375 - INFO - Training NMF on fold 2
+2025-04-07 01:50:25,169 - INFO - Training completed in 1.79 seconds
+2025-04-07 01:50:25,169 - INFO - Testing NMF on fold 2
+2025-04-07 01:50:25,390 - INFO - Fold 2 metrics - RMSE: 0.9649, MAE: 0.7575
+2025-04-07 01:50:25,514 - INFO - Processing fold 3/5
+2025-04-07 01:50:25,514 - INFO - Training NMF on fold 3
+2025-04-07 01:50:26,767 - INFO - Training completed in 1.25 seconds
+2025-04-07 01:50:26,767 - INFO - Testing NMF on fold 3
+2025-04-07 01:50:26,883 - INFO - Fold 3 metrics - RMSE: 0.9660, MAE: 0.7612
+2025-04-07 01:50:27,003 - INFO - Processing fold 4/5
+2025-04-07 01:50:27,003 - INFO - Training NMF on fold 4
+2025-04-07 01:50:28,079 - INFO - Training completed in 1.08 seconds
+2025-04-07 01:50:28,079 - INFO - Testing NMF on fold 4
+2025-04-07 01:50:28,262 - INFO - Fold 4 metrics - RMSE: 0.9580, MAE: 0.7514
+2025-04-07 01:50:28,358 - INFO - Processing fold 5/5
+2025-04-07 01:50:28,373 - INFO - Training NMF on fold 5
+2025-04-07 01:50:29,863 - INFO - Training completed in 1.49 seconds
+2025-04-07 01:50:29,863 - INFO - Testing NMF on fold 5
+2025-04-07 01:50:30,033 - INFO - Fold 5 metrics - RMSE: 0.9728, MAE: 0.7648
+2025-04-07 01:50:30,323 - INFO - 
+Final results for NMF:
+2025-04-07 01:50:30,323 - INFO - RMSE: 0.9665
+2025-04-07 01:50:30,323 - INFO - MAE: 0.7599
+2025-04-07 01:50:30,323 - INFO - Precision: 0.7328
+2025-04-07 01:50:30,325 - INFO - Recall: 0.7105
+2025-04-07 01:50:30,325 - INFO - F1 Score: 0.7215
+2025-04-07 01:50:30,325 - INFO - Accuracy: 0.6963
+2025-04-07 01:50:30,325 - INFO - Total time: 8.54 seconds
+2025-04-07 01:50:30,325 - INFO - 
+Evaluating algorithm: KNNBasic
+2025-04-07 01:50:30,428 - INFO - Processing fold 1/5
+2025-04-07 01:50:30,430 - INFO - Training KNNBasic on fold 1
+2025-04-07 01:50:30,768 - INFO - Training completed in 0.34 seconds
+2025-04-07 01:50:30,768 - INFO - Testing KNNBasic on fold 1
+2025-04-07 01:50:32,575 - INFO - Fold 1 metrics - RMSE: 0.9752, MAE: 0.7710
+2025-04-07 01:50:32,684 - INFO - Processing fold 2/5
+2025-04-07 01:50:32,684 - INFO - Training KNNBasic on fold 2
+2025-04-07 01:50:33,003 - INFO - Training completed in 0.32 seconds
+2025-04-07 01:50:33,003 - INFO - Testing KNNBasic on fold 2
+2025-04-07 01:50:35,126 - INFO - Fold 2 metrics - RMSE: 0.9855, MAE: 0.7790
+2025-04-07 01:50:35,259 - INFO - Processing fold 3/5
+2025-04-07 01:50:35,260 - INFO - Training KNNBasic on fold 3
+2025-04-07 01:50:35,807 - INFO - Training completed in 0.55 seconds
+2025-04-07 01:50:35,807 - INFO - Testing KNNBasic on fold 3
+2025-04-07 01:50:38,359 - INFO - Fold 3 metrics - RMSE: 0.9802, MAE: 0.7716
+2025-04-07 01:50:38,533 - INFO - Processing fold 4/5
+2025-04-07 01:50:38,533 - INFO - Training KNNBasic on fold 4
+2025-04-07 01:50:38,885 - INFO - Training completed in 0.35 seconds
+2025-04-07 01:50:38,885 - INFO - Testing KNNBasic on fold 4
+2025-04-07 01:50:40,815 - INFO - Fold 4 metrics - RMSE: 0.9755, MAE: 0.7716
+2025-04-07 01:50:40,923 - INFO - Processing fold 5/5
+2025-04-07 01:50:40,923 - INFO - Training KNNBasic on fold 5
+2025-04-07 01:50:41,239 - INFO - Training completed in 0.32 seconds
+2025-04-07 01:50:41,239 - INFO - Testing KNNBasic on fold 5
+2025-04-07 01:50:43,305 - INFO - Fold 5 metrics - RMSE: 0.9820, MAE: 0.7750
+2025-04-07 01:50:43,588 - INFO - 
+Final results for KNNBasic:
+2025-04-07 01:50:43,590 - INFO - RMSE: 0.9797
+2025-04-07 01:50:43,590 - INFO - MAE: 0.7737
+2025-04-07 01:50:43,590 - INFO - Precision: 0.7037
+2025-04-07 01:50:43,590 - INFO - Recall: 0.7659
+2025-04-07 01:50:43,590 - INFO - F1 Score: 0.7335
+2025-04-07 01:50:43,590 - INFO - Accuracy: 0.6918
+2025-04-07 01:50:43,590 - INFO - Total time: 13.27 seconds
+2025-04-07 01:50:43,590 - INFO - 
+Evaluating algorithm: KNNWithMeans
+2025-04-07 01:50:43,697 - INFO - Processing fold 1/5
+2025-04-07 01:50:43,697 - INFO - Training KNNWithMeans on fold 1
+2025-04-07 01:50:44,037 - INFO - Training completed in 0.34 seconds
+2025-04-07 01:50:44,037 - INFO - Testing KNNWithMeans on fold 1
+2025-04-07 01:50:46,052 - INFO - Fold 1 metrics - RMSE: 0.9501, MAE: 0.7483
+2025-04-07 01:50:46,223 - INFO - Processing fold 2/5
+2025-04-07 01:50:46,223 - INFO - Training KNNWithMeans on fold 2
+2025-04-07 01:50:46,565 - INFO - Training completed in 0.34 seconds
+2025-04-07 01:50:46,565 - INFO - Testing KNNWithMeans on fold 2
+2025-04-07 01:50:48,541 - INFO - Fold 2 metrics - RMSE: 0.9467, MAE: 0.7454
+2025-04-07 01:50:48,647 - INFO - Processing fold 3/5
+2025-04-07 01:50:48,647 - INFO - Training KNNWithMeans on fold 3
+2025-04-07 01:50:48,979 - INFO - Training completed in 0.33 seconds
+2025-04-07 01:50:48,979 - INFO - Testing KNNWithMeans on fold 3
+2025-04-07 01:50:51,015 - INFO - Fold 3 metrics - RMSE: 0.9565, MAE: 0.7547
+2025-04-07 01:50:51,119 - INFO - Processing fold 4/5
+2025-04-07 01:50:51,119 - INFO - Training KNNWithMeans on fold 4
+2025-04-07 01:50:51,489 - INFO - Training completed in 0.37 seconds
+2025-04-07 01:50:51,489 - INFO - Testing KNNWithMeans on fold 4
+2025-04-07 01:50:53,451 - INFO - Fold 4 metrics - RMSE: 0.9496, MAE: 0.7501
+2025-04-07 01:50:53,554 - INFO - Processing fold 5/5
+2025-04-07 01:50:53,554 - INFO - Training KNNWithMeans on fold 5
+2025-04-07 01:50:53,960 - INFO - Training completed in 0.41 seconds
+2025-04-07 01:50:53,960 - INFO - Testing KNNWithMeans on fold 5
+2025-04-07 01:50:56,001 - INFO - Fold 5 metrics - RMSE: 0.9480, MAE: 0.7452
+2025-04-07 01:50:56,283 - INFO - 
+Final results for KNNWithMeans:
+2025-04-07 01:50:56,283 - INFO - RMSE: 0.9502
+2025-04-07 01:50:56,283 - INFO - MAE: 0.7487
+2025-04-07 01:50:56,283 - INFO - Precision: 0.7355
+2025-04-07 01:50:56,283 - INFO - Recall: 0.7192
+2025-04-07 01:50:56,283 - INFO - F1 Score: 0.7273
+2025-04-07 01:50:56,283 - INFO - Accuracy: 0.7013
+2025-04-07 01:50:56,283 - INFO - Total time: 12.69 seconds
+2025-04-07 01:50:56,283 - INFO - 
+Evaluating algorithm: KNNWithZScore
+2025-04-07 01:50:56,386 - INFO - Processing fold 1/5
+2025-04-07 01:50:56,386 - INFO - Training KNNWithZScore on fold 1
+2025-04-07 01:50:56,790 - INFO - Training completed in 0.40 seconds
+2025-04-07 01:50:56,790 - INFO - Testing KNNWithZScore on fold 1
+2025-04-07 01:50:58,882 - INFO - Fold 1 metrics - RMSE: 0.9429, MAE: 0.7397
+2025-04-07 01:50:59,043 - INFO - Processing fold 2/5
+2025-04-07 01:50:59,043 - INFO - Training KNNWithZScore on fold 2
+2025-04-07 01:50:59,448 - INFO - Training completed in 0.40 seconds
+2025-04-07 01:50:59,448 - INFO - Testing KNNWithZScore on fold 2
+2025-04-07 01:51:01,540 - INFO - Fold 2 metrics - RMSE: 0.9579, MAE: 0.7494
+2025-04-07 01:51:01,658 - INFO - Processing fold 3/5
+2025-04-07 01:51:01,658 - INFO - Training KNNWithZScore on fold 3
+2025-04-07 01:51:02,065 - INFO - Training completed in 0.41 seconds
+2025-04-07 01:51:02,065 - INFO - Testing KNNWithZScore on fold 3
+2025-04-07 01:51:04,295 - INFO - Fold 3 metrics - RMSE: 0.9566, MAE: 0.7507
+2025-04-07 01:51:04,404 - INFO - Processing fold 4/5
+2025-04-07 01:51:04,404 - INFO - Training KNNWithZScore on fold 4
+2025-04-07 01:51:04,814 - INFO - Training completed in 0.41 seconds
+2025-04-07 01:51:04,814 - INFO - Testing KNNWithZScore on fold 4
+2025-04-07 01:51:06,944 - INFO - Fold 4 metrics - RMSE: 0.9527, MAE: 0.7480
+2025-04-07 01:51:07,049 - INFO - Processing fold 5/5
+2025-04-07 01:51:07,049 - INFO - Training KNNWithZScore on fold 5
+2025-04-07 01:51:07,491 - INFO - Training completed in 0.44 seconds
+2025-04-07 01:51:07,491 - INFO - Testing KNNWithZScore on fold 5
+2025-04-07 01:51:09,567 - INFO - Fold 5 metrics - RMSE: 0.9456, MAE: 0.7431
+2025-04-07 01:51:09,846 - INFO - 
+Final results for KNNWithZScore:
+2025-04-07 01:51:09,846 - INFO - RMSE: 0.9511
+2025-04-07 01:51:09,846 - INFO - MAE: 0.7462
+2025-04-07 01:51:09,846 - INFO - Precision: 0.7347
+2025-04-07 01:51:09,846 - INFO - Recall: 0.7213
+2025-04-07 01:51:09,846 - INFO - F1 Score: 0.7279
+2025-04-07 01:51:09,846 - INFO - Accuracy: 0.7015
+2025-04-07 01:51:09,846 - INFO - Total time: 13.56 seconds
+2025-04-07 01:51:09,846 - INFO - 
+Evaluating algorithm: KNNBaseline
+2025-04-07 01:51:09,951 - INFO - Processing fold 1/5
+2025-04-07 01:51:09,951 - INFO - Training KNNBaseline on fold 1
+2025-04-07 01:51:10,353 - INFO - Training completed in 0.40 seconds
+2025-04-07 01:51:10,353 - INFO - Testing KNNBaseline on fold 1
+2025-04-07 01:51:12,596 - INFO - Fold 1 metrics - RMSE: 0.9259, MAE: 0.7277
+2025-04-07 01:51:12,820 - INFO - Processing fold 2/5
+2025-04-07 01:51:12,820 - INFO - Training KNNBaseline on fold 2
+2025-04-07 01:51:13,329 - INFO - Training completed in 0.51 seconds
+2025-04-07 01:51:13,329 - INFO - Testing KNNBaseline on fold 2
+2025-04-07 01:51:16,345 - INFO - Fold 2 metrics - RMSE: 0.9307, MAE: 0.7341
+2025-04-07 01:51:16,459 - INFO - Processing fold 3/5
+2025-04-07 01:51:16,459 - INFO - Training KNNBaseline on fold 3
+2025-04-07 01:51:17,035 - INFO - Training completed in 0.58 seconds
+2025-04-07 01:51:17,035 - INFO - Testing KNNBaseline on fold 3
+2025-04-07 01:51:19,840 - INFO - Fold 3 metrics - RMSE: 0.9342, MAE: 0.7378
+2025-04-07 01:51:19,975 - INFO - Processing fold 4/5
+2025-04-07 01:51:19,975 - INFO - Training KNNBaseline on fold 4
+2025-04-07 01:51:20,529 - INFO - Training completed in 0.55 seconds
+2025-04-07 01:51:20,534 - INFO - Testing KNNBaseline on fold 4
+2025-04-07 01:51:23,212 - INFO - Fold 4 metrics - RMSE: 0.9229, MAE: 0.7272
+2025-04-07 01:51:23,350 - INFO - Processing fold 5/5
+2025-04-07 01:51:23,350 - INFO - Training KNNBaseline on fold 5
+2025-04-07 01:51:23,907 - INFO - Training completed in 0.56 seconds
+2025-04-07 01:51:23,907 - INFO - Testing KNNBaseline on fold 5
+2025-04-07 01:51:26,760 - INFO - Fold 5 metrics - RMSE: 0.9372, MAE: 0.7384
+2025-04-07 01:51:27,077 - INFO - 
+Final results for KNNBaseline:
+2025-04-07 01:51:27,077 - INFO - RMSE: 0.9302
+2025-04-07 01:51:27,077 - INFO - MAE: 0.7330
+2025-04-07 01:51:27,077 - INFO - Precision: 0.7380
+2025-04-07 01:51:27,077 - INFO - Recall: 0.7494
+2025-04-07 01:51:27,077 - INFO - F1 Score: 0.7437
+2025-04-07 01:51:27,077 - INFO - Accuracy: 0.7139
+2025-04-07 01:51:27,077 - INFO - Total time: 17.23 seconds
+2025-04-07 01:51:27,085 - INFO - 
+Evaluating algorithm: BaselineOnly
+2025-04-07 01:51:27,193 - INFO - Processing fold 1/5
+2025-04-07 01:51:27,193 - INFO - Training BaselineOnly on fold 1
+2025-04-07 01:51:27,337 - INFO - Training completed in 0.14 seconds
+2025-04-07 01:51:27,337 - INFO - Testing BaselineOnly on fold 1
+2025-04-07 01:51:27,428 - INFO - Fold 1 metrics - RMSE: 0.9497, MAE: 0.7505
+2025-04-07 01:51:27,551 - INFO - Processing fold 2/5
+2025-04-07 01:51:27,551 - INFO - Training BaselineOnly on fold 2
+2025-04-07 01:51:27,721 - INFO - Training completed in 0.17 seconds
+2025-04-07 01:51:27,721 - INFO - Testing BaselineOnly on fold 2
+2025-04-07 01:51:27,899 - INFO - Fold 2 metrics - RMSE: 0.9441, MAE: 0.7500
+2025-04-07 01:51:28,015 - INFO - Processing fold 3/5
+2025-04-07 01:51:28,015 - INFO - Training BaselineOnly on fold 3
+2025-04-07 01:51:28,160 - INFO - Training completed in 0.14 seconds
+2025-04-07 01:51:28,160 - INFO - Testing BaselineOnly on fold 3
+2025-04-07 01:51:28,342 - INFO - Fold 3 metrics - RMSE: 0.9443, MAE: 0.7490
+2025-04-07 01:51:28,466 - INFO - Processing fold 4/5
+2025-04-07 01:51:28,466 - INFO - Training BaselineOnly on fold 4
+2025-04-07 01:51:28,592 - INFO - Training completed in 0.13 seconds
+2025-04-07 01:51:28,592 - INFO - Testing BaselineOnly on fold 4
+2025-04-07 01:51:28,690 - INFO - Fold 4 metrics - RMSE: 0.9352, MAE: 0.7428
+2025-04-07 01:51:28,809 - INFO - Processing fold 5/5
+2025-04-07 01:51:28,809 - INFO - Training BaselineOnly on fold 5
+2025-04-07 01:51:28,942 - INFO - Training completed in 0.13 seconds
+2025-04-07 01:51:28,942 - INFO - Testing BaselineOnly on fold 5
+2025-04-07 01:51:29,119 - INFO - Fold 5 metrics - RMSE: 0.9455, MAE: 0.7487
+2025-04-07 01:51:29,431 - INFO - 
+Final results for BaselineOnly:
+2025-04-07 01:51:29,431 - INFO - RMSE: 0.9437
+2025-04-07 01:51:29,431 - INFO - MAE: 0.7482
+2025-04-07 01:51:29,431 - INFO - Precision: 0.7324
+2025-04-07 01:51:29,431 - INFO - Recall: 0.7396
+2025-04-07 01:51:29,435 - INFO - F1 Score: 0.7360
+2025-04-07 01:51:29,435 - INFO - Accuracy: 0.7062
+2025-04-07 01:51:29,435 - INFO - Total time: 2.35 seconds
+2025-04-07 01:51:29,435 - INFO - 
+Evaluating algorithm: CoClustering
+2025-04-07 01:51:29,554 - INFO - Processing fold 1/5
+2025-04-07 01:51:29,554 - INFO - Training CoClustering on fold 1
+2025-04-07 01:51:31,216 - INFO - Training completed in 1.66 seconds
+2025-04-07 01:51:31,216 - INFO - Testing CoClustering on fold 1
+2025-04-07 01:51:31,313 - INFO - Fold 1 metrics - RMSE: 0.9584, MAE: 0.7516
+2025-04-07 01:51:31,417 - INFO - Processing fold 2/5
+2025-04-07 01:51:31,417 - INFO - Training CoClustering on fold 2
+2025-04-07 01:51:32,702 - INFO - Training completed in 1.29 seconds
+2025-04-07 01:51:32,702 - INFO - Testing CoClustering on fold 2
+2025-04-07 01:51:32,881 - INFO - Fold 2 metrics - RMSE: 0.9560, MAE: 0.7478
+2025-04-07 01:51:32,984 - INFO - Processing fold 3/5
+2025-04-07 01:51:32,984 - INFO - Training CoClustering on fold 3
+2025-04-07 01:51:34,607 - INFO - Training completed in 1.62 seconds
+2025-04-07 01:51:34,607 - INFO - Testing CoClustering on fold 3
+2025-04-07 01:51:34,703 - INFO - Fold 3 metrics - RMSE: 0.9660, MAE: 0.7571
+2025-04-07 01:51:34,826 - INFO - Processing fold 4/5
+2025-04-07 01:51:34,826 - INFO - Training CoClustering on fold 4
+2025-04-07 01:51:36,453 - INFO - Training completed in 1.63 seconds
+2025-04-07 01:51:36,468 - INFO - Testing CoClustering on fold 4
+2025-04-07 01:51:36,642 - INFO - Fold 4 metrics - RMSE: 0.9675, MAE: 0.7585
+2025-04-07 01:51:36,796 - INFO - Processing fold 5/5
+2025-04-07 01:51:36,798 - INFO - Training CoClustering on fold 5
+2025-04-07 01:51:38,708 - INFO - Training completed in 1.91 seconds
+2025-04-07 01:51:38,715 - INFO - Testing CoClustering on fold 5
+2025-04-07 01:51:38,810 - INFO - Fold 5 metrics - RMSE: 0.9781, MAE: 0.7643
+2025-04-07 01:51:39,101 - INFO - 
+Final results for CoClustering:
+2025-04-07 01:51:39,101 - INFO - RMSE: 0.9652
+2025-04-07 01:51:39,101 - INFO - MAE: 0.7559
+2025-04-07 01:51:39,101 - INFO - Precision: 0.7268
+2025-04-07 01:51:39,101 - INFO - Recall: 0.7323
+2025-04-07 01:51:39,101 - INFO - F1 Score: 0.7295
+2025-04-07 01:51:39,101 - INFO - Accuracy: 0.6993
+2025-04-07 01:51:39,101 - INFO - Total time: 9.67 seconds
+2025-04-07 01:51:39,101 - INFO - 
+Evaluating algorithm: NormalPredictor
+2025-04-07 01:51:39,230 - INFO - Processing fold 1/5
+2025-04-07 01:51:39,230 - INFO - Training NormalPredictor on fold 1
+2025-04-07 01:51:39,305 - INFO - Training completed in 0.07 seconds
+2025-04-07 01:51:39,305 - INFO - Testing NormalPredictor on fold 1
+2025-04-07 01:51:39,495 - INFO - Fold 1 metrics - RMSE: 1.5348, MAE: 1.2319
+2025-04-07 01:51:39,611 - INFO - Processing fold 2/5
+2025-04-07 01:51:39,611 - INFO - Training NormalPredictor on fold 2
+2025-04-07 01:51:39,759 - INFO - Training completed in 0.15 seconds
+2025-04-07 01:51:39,759 - INFO - Testing NormalPredictor on fold 2
+2025-04-07 01:51:39,872 - INFO - Fold 2 metrics - RMSE: 1.5165, MAE: 1.2227
+2025-04-07 01:51:39,999 - INFO - Processing fold 3/5
+2025-04-07 01:51:39,999 - INFO - Training NormalPredictor on fold 3
+2025-04-07 01:51:40,112 - INFO - Training completed in 0.11 seconds
+2025-04-07 01:51:40,112 - INFO - Testing NormalPredictor on fold 3
+2025-04-07 01:51:40,359 - INFO - Fold 3 metrics - RMSE: 1.5284, MAE: 1.2305
+2025-04-07 01:51:40,483 - INFO - Processing fold 4/5
+2025-04-07 01:51:40,483 - INFO - Training NormalPredictor on fold 4
+2025-04-07 01:51:40,572 - INFO - Training completed in 0.09 seconds
+2025-04-07 01:51:40,573 - INFO - Testing NormalPredictor on fold 4
+2025-04-07 01:51:40,780 - INFO - Fold 4 metrics - RMSE: 1.5201, MAE: 1.2213
+2025-04-07 01:51:40,914 - INFO - Processing fold 5/5
+2025-04-07 01:51:40,914 - INFO - Training NormalPredictor on fold 5
+2025-04-07 01:51:40,998 - INFO - Training completed in 0.08 seconds
+2025-04-07 01:51:40,998 - INFO - Testing NormalPredictor on fold 5
+2025-04-07 01:51:41,097 - INFO - Fold 5 metrics - RMSE: 1.5114, MAE: 1.2147
+2025-04-07 01:51:41,414 - INFO - 
+Final results for NormalPredictor:
+2025-04-07 01:51:41,414 - INFO - RMSE: 1.5222
+2025-04-07 01:51:41,414 - INFO - MAE: 1.2242
+2025-04-07 01:51:41,414 - INFO - Precision: 0.5533
+2025-04-07 01:51:41,414 - INFO - Recall: 0.5084
+2025-04-07 01:51:41,414 - INFO - F1 Score: 0.5299
+2025-04-07 01:51:41,414 - INFO - Accuracy: 0.5005
+2025-04-07 01:51:41,414 - INFO - Total time: 2.31 seconds
+2025-04-07 01:51:41,414 - INFO - 
+Generating final comparison table
+2025-04-07 01:51:41,418 - INFO - Evaluation completed successfully

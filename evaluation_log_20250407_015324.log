@@ -1,0 +1,57 @@
+2025-04-07 01:53:24,784 - INFO - Starting evaluation process
+2025-04-07 01:53:24,784 - INFO - Loading MovieLens 100k dataset...
+2025-04-07 01:53:25,022 - INFO - Dataset loaded successfully
+2025-04-07 01:53:25,036 - INFO - Starting evaluation with 10 algorithms
+2025-04-07 01:53:25,036 - INFO - Using threshold of 3.5 for binary classification
+2025-04-07 01:53:25,036 - INFO - 
+Evaluating algorithm: SVD
+2025-04-07 01:53:25,164 - INFO - Processing fold 1/5
+2025-04-07 01:53:25,164 - INFO - Training SVD on fold 1
+2025-04-07 01:53:26,049 - INFO - Training completed in 0.88 seconds
+2025-04-07 01:53:26,055 - INFO - Testing SVD on fold 1
+2025-04-07 01:53:26,194 - INFO - Fold 1 metrics - RMSE: 0.9260, MAE: 0.7292
+2025-04-07 01:53:26,321 - INFO - Processing fold 2/5
+2025-04-07 01:53:26,321 - INFO - Training SVD on fold 2
+2025-04-07 01:53:27,165 - INFO - Training completed in 0.84 seconds
+2025-04-07 01:53:27,165 - INFO - Testing SVD on fold 2
+2025-04-07 01:53:27,332 - INFO - Fold 2 metrics - RMSE: 0.9335, MAE: 0.7375
+2025-04-07 01:53:27,548 - INFO - Processing fold 3/5
+2025-04-07 01:53:27,548 - INFO - Training SVD on fold 3
+2025-04-07 01:53:28,462 - INFO - Training completed in 0.91 seconds
+2025-04-07 01:53:28,462 - INFO - Testing SVD on fold 3
+2025-04-07 01:53:28,653 - INFO - Fold 3 metrics - RMSE: 0.9453, MAE: 0.7464
+2025-04-07 01:53:28,800 - INFO - Processing fold 4/5
+2025-04-07 01:53:28,800 - INFO - Training SVD on fold 4
+2025-04-07 01:53:29,810 - INFO - Training completed in 1.01 seconds
+2025-04-07 01:53:29,810 - INFO - Testing SVD on fold 4
+2025-04-07 01:53:29,959 - INFO - Fold 4 metrics - RMSE: 0.9331, MAE: 0.7348
+2025-04-07 01:53:30,103 - INFO - Processing fold 5/5
+2025-04-07 01:53:30,103 - INFO - Training SVD on fold 5
+2025-04-07 01:53:30,981 - INFO - Training completed in 0.88 seconds
+2025-04-07 01:53:30,981 - INFO - Testing SVD on fold 5
+2025-04-07 01:53:31,203 - INFO - Fold 5 metrics - RMSE: 0.9398, MAE: 0.7393
+2025-04-07 01:53:31,541 - INFO - 
+Final results for SVD:
+2025-04-07 01:53:31,541 - INFO - RMSE: 0.9355
+2025-04-07 01:53:31,541 - INFO - MAE: 0.7374
+2025-04-07 01:53:31,541 - INFO - Precision: 0.7385
+2025-04-07 01:53:31,541 - INFO - Recall: 0.7362
+2025-04-07 01:53:31,541 - INFO - F1 Score: 0.7373
+2025-04-07 01:53:31,541 - INFO - Accuracy: 0.7095
+2025-04-07 01:53:31,541 - INFO - Total time: 6.51 seconds
+2025-04-07 01:53:32,584 - INFO - 
+Evaluating algorithm: SVD++
+2025-04-07 01:53:32,690 - INFO - Processing fold 1/5
+2025-04-07 01:53:32,690 - INFO - Training SVD++ on fold 1
+2025-04-07 01:53:47,409 - INFO - Training completed in 14.72 seconds
+2025-04-07 01:53:47,417 - INFO - Testing SVD++ on fold 1
+2025-04-07 01:53:50,932 - INFO - Fold 1 metrics - RMSE: 0.9225, MAE: 0.7249
+2025-04-07 01:53:51,038 - INFO - Processing fold 2/5
+2025-04-07 01:53:51,038 - INFO - Training SVD++ on fold 2
+2025-04-07 01:54:05,351 - INFO - Training completed in 14.31 seconds
+2025-04-07 01:54:05,351 - INFO - Testing SVD++ on fold 2
+2025-04-07 01:54:08,640 - INFO - Fold 2 metrics - RMSE: 0.9161, MAE: 0.7175
+2025-04-07 01:54:08,755 - INFO - Processing fold 3/5
+2025-04-07 01:54:08,755 - INFO - Training SVD++ on fold 3
+2025-04-07 01:54:22,701 - INFO - Training completed in 13.95 seconds
+2025-04-07 01:54:22,701 - INFO - Testing SVD++ on fold 3
